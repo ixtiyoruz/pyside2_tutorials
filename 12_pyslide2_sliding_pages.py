@@ -1,3 +1,4 @@
+from PySide2 import QtCore, QtGui, QtWidgets
 
 class SlidingStackedWidget(QtWidgets.QStackedWidget):
     def __init__(self, parent=None):
